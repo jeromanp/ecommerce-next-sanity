@@ -5,9 +5,9 @@ export default function NavBar() {
   return (
     <>
       <header className="header bg-blanco">
-        <div className="container mx-auto flex">
+        <div className="container mx-auto flex justify-evenly">
           <div className="flex text-negro">
-            <span className="fa-solid fa-border-all"></span>
+            <span class="material-icons">lists</span>
             <h4>
               Categories <span className="material-icons">expand_more</span>
             </h4>
