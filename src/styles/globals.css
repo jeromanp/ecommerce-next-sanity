@@ -91,17 +91,20 @@ span.text-red {
   margin-left: 6px;
 }
 .logo {
-  color: gray;
-  font-size: 18px;
+  color: white;
+  font-size: 38px;
+  padding-bottom: 20px;
 }
+
 .cart-icon {
-  font-size: 25px;
-  color: gray;
+  font-size: 35px;
+  color: white;
   cursor: pointer;
   position: relative;
   transition: transform 0.4s ease;
   border: none;
   background-color: transparent;
+  padding-right: 25px;
 }
 .cart-icon:hover {
   transform: scale(1.1, 1.1);
@@ -117,6 +120,7 @@ span.text-red {
   border-radius: 50%;
   text-align: center;
   font-weight: 600;
+  margin-right: 21px;
 }
 .products-container {
   display: flex;
