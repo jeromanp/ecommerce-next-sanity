@@ -156,16 +156,17 @@ span.text-red {
 }
 
 .hero-banner-container {
-  padding: 100px 40px;
+  padding: 100px 100px;
   background-color: #dcdcdc;
-  border-radius: 15px;
+  border-radius: 25px;
   position: relative;
-  height: 500px;
+  height: 480px;
   line-height: 0.9;
   width: 100%;
 }
 .hero-banner-container .beats-solo {
   font-size: 20px;
+  color: black;
 }
 .hero-banner-container button {
   border-radius: 15px;
@@ -183,9 +184,10 @@ span.text-red {
 .hero-banner-container h3 {
   font-size: 4rem;
   margin-top: 4px;
+  color: blue;
 }
 .hero-banner-container h1 {
-  color: white;
+  color: rgb(21, 31, 170);
   font-size: 10em;
   margin-left: -20px;
   text-transform: uppercase;
@@ -206,7 +208,8 @@ span.text-red {
   line-height: 1.3;
   display: flex;
   flex-direction: column;
-  color: #324d67;
+  color: #0c4479;
+  font-size: large;
 }
 .desc p {
   color: #5f5f5f;
@@ -216,14 +219,14 @@ span.text-red {
 .desc h5 {
   margin-bottom: 12px;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 26px;
   /* color: black; */
   align-self: flex-end;
 }
 .products-heading {
   text-align: center;
   margin: 40px 0px;
-  color: #324d67;
+  color: #ffffff;
 }
 .products-heading h2 {
   font-size: 40px;
@@ -235,14 +238,14 @@ span.text-red {
 }
 .footer-banner-container {
   padding: 100px 40px;
-  background-color: #f02d34;
-  border-radius: 15px;
+  background-color: #dcdcdc;
+  border-radius: 25px;
   position: relative;
   height: 400px;
   line-height: 1;
-  color: white;
+  color: black;
   width: 100%;
-  margin-top: 120px;
+  margin-top: 100px;
 }
 .banner-desc {
   display: flex;
@@ -266,6 +269,8 @@ span.text-red {
 }
 .banner-desc .left p {
   margin: 18px;
+  color: red;
+  font-size: larger;
 }
 .footer-banner-image {
   position: absolute;
@@ -290,7 +295,7 @@ span.text-red {
 }
 .cart-wrapper {
   width: 100vw;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.7);
   position: fixed;
   right: 0;
   top: 0;
@@ -300,15 +305,26 @@ span.text-red {
 }
 .cart-container {
   height: 100vh;
-  width: 600px;
-  background-color: white;
+  width: 650px;
+  background-color: rgb(180, 148, 148);
   float: right;
   padding: 40px 10px;
   position: relative;
 }
 
+.title-cart{
+  color: #dcdcdc;
+  font-size: x-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e5e3e7;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .footer-container {
-  color: #324d67;
+  color: white;
   text-align: center;
   margin-top: 20px;
   padding: 30px 10px;
@@ -350,6 +366,7 @@ span.text-red {
 .empty-cart h3 {
   font-weight: 600;
   font-size: 20px;
+  color: black;
 }
 .cancel {
   cursor: pointer;
@@ -436,7 +453,7 @@ span.text-red {
   gap: 40px;
   margin: 40px;
   margin-top: 60px;
-  color: #324d67;
+  color: black;
 }
 
 .product-detail-image {
@@ -541,7 +558,7 @@ span.text-red {
   transform: scale(1.1, 1.1);
 }
 .quantity-desc {
-  border: 1px solid gray;
+  border: 1px solid rgb(0, 0, 0);
   padding: 6px;
 }
 .quantity-desc span {
@@ -550,15 +567,15 @@ span.text-red {
   cursor: pointer;
 }
 .quantity-desc .minus {
-  border-right: 1px solid gray;
-  color: #f02d34;
+  border-right: 1px solid rgb(0, 0, 0);
+  color: #f8030b;
 }
 .quantity-desc .num {
-  border-right: 1px solid gray;
+  border-right: 1px solid rgb(0, 0, 0);
   font-size: 20px;
 }
 .quantity-desc .plus {
-  color: rgb(49, 168, 49);
+  color: rgb(19, 204, 19);
 }
 
 .maylike-products-wrapper {
@@ -567,14 +584,14 @@ span.text-red {
 .maylike-products-wrapper h2 {
   text-align: center;
   margin: 50px;
-  color: #324d67;
+  color: white;
 
   font-size: 28px;
 }
 .maylike-products-container {
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 25px;
   margin-top: 20px;
 }
 .max-qty {
