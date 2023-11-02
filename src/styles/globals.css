@@ -374,8 +374,9 @@ span.text-red {
 .product-container {
   margin-top: 15px;
   overflow: auto;
-  max-height: 70vh;
+  max-height:55vh;
   padding: 20px 10px;
+  overflow-y: scroll;
 }
 .product {
   display: flex;
@@ -418,11 +419,12 @@ span.text-red {
   border: none;
 }
 .cart-bottom {
-  position: absolute;
-  bottom: 12px;
+  position: relative;
+  bottom: 70px;
   right: 5px;
   width: 100%;
-  padding: 30px 65px;
+  padding: 80px 85px;
+  height: auto;
 }
 
 .btn-container {
