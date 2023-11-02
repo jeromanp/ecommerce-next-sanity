@@ -1,7 +1,14 @@
-import React from 'react'
+import React from "react";
+import { AiFillInstagram, AiOutlineTwitter } from "react-icons/ai";
 
 export default function Footer() {
   return (
-    <div>Footer</div>
-  )
+    <div className="footer-container">
+      <p>2023 RoPi Shoes All rights reserverd</p>
+      <p className="icons">
+        <AiFillInstagram />
+        <AiOutlineTwitter />
+      </p>
+    </div>
+  );
 }
