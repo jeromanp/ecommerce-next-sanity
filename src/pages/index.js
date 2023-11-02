@@ -10,8 +10,8 @@ export default function Home({ products, bannerData }) {
       {/* {console.log(bannerData)} */}
       {/* {console.log(products)} */}
       <div className="products-heading">
-        <h2>Best Seller Products</h2>
-        <p>speaker There are many variations passages</p>
+        <h2>Productos más vendidos</h2>
+        <p>Encuentra los mejores tenis</p>
       </div>
 
       <div className="products-container">
