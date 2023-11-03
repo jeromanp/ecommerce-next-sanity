@@ -4,16 +4,30 @@ export default {
   type: 'document',
   fields: [
     {
+      name: 'name',
+      title: 'Nombre',
+      type: 'string',
+    },
+    {
       name: 'image',
-      title: 'Image',
+      title: 'Imagen',
       type: 'image',
       options: {
         hotspot: true,
       },
     },
     {
+      name: 'slug',
+      title: 'Slug',
+      type: 'slug',
+      options: {
+        source: 'name',
+        maxLength: 90,
+      },
+    },
+    {
       name: 'buttonText',
-      title: 'ButtonText',
+      title: 'ButtonTexto',
       type: 'string',
     },
     {
