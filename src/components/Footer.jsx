@@ -7,20 +7,20 @@ export default function Footer() {
     <div className="footer-container">
       <p>2023 RoPi Shoes All rights reserverd</p>
       <p className="icons">
-        <Link
+        <a
           href={"https://www.instagram.com"}
           target="_blank"
           rel="noopener noreferrer"
         >
           <AiFillInstagram />
-        </Link>
-        <Link
+        </a>
+        <a
           href={"https://www.twitter.com"}
           target="_blank"
           rel="noopener noreferrer"
         >
           <AiOutlineTwitter />
-        </Link>
+        </a>
       </p>
     </div>
   );
