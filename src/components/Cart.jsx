@@ -11,6 +11,7 @@ import toast from "react-hot-toast";
 
 import { useStateContext } from "../../context/StateContext";
 import { urlFor } from "../../lib/client";
+import getStripe from "../../lib/getStripe";
 
 export default function Cart() {
   const cartRef = useRef();
@@ -38,7 +39,7 @@ export default function Cart() {
 
     const data = await response.json();
 
-    toast.loading("Redirecting...");
+    toast.loading("Redirijiendo a Stripe...");
 
     stripe.redirectToCheckout({ sessionId: data.id });
   };
@@ -131,10 +132,7 @@ export default function Cart() {
               <h3>${totalPrice}</h3>
             </div>
             <div className="btn-container">
-              <button
-                type="button"
-                className="btn" /*onClick={handleCheckout}*/
-              >
+              <button type="button" className="btn" onClick={handleCheckout}>
                 Pagar con Stripe
               </button>
             </div>
