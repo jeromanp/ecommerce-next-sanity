@@ -312,7 +312,7 @@ span.text-red {
   position: relative;
 }
 
-.title-cart{
+.title-cart {
   color: #dcdcdc;
   font-size: x-large;
   display: flex;
@@ -368,13 +368,11 @@ span.text-red {
   font-size: 20px;
   color: black;
 }
-.cancel {
-  cursor: pointer;
-}
+
 .product-container {
   margin-top: 15px;
   overflow: auto;
-  max-height:55vh;
+  max-height: 55vh;
   padding: 20px 10px;
   overflow-y: scroll;
 }
@@ -602,14 +600,14 @@ span.text-red {
 }
 .success-wrapper,
 .cancel-wrapper {
-  background-color: white;
+  background-color: #dcdcdc;
   min-height: 60vh;
 }
 .success,
 .cancel {
   width: 1000px;
   margin: auto;
-  margin-top: 160px;
+  margin-top: 10px;
   background-color: #dcdcdc;
   padding: 50px;
   border-radius: 15px;
@@ -623,12 +621,23 @@ span.text-red {
   color: green;
   font-size: 40px;
 }
-.success h2 {
+
+.cancel .icon {
+  color: red;
+  font-size: 50px;
+
+}
+
+.success, .cancel p {
+  color: black;
+}
+.success,.cancel h2 {
   text-transform: capitalize;
   margin-top: 15px 0px;
   font-weight: 900;
   font-size: 40px;
   color: #324d67;
+  padding-bottom: 20px;
 }
 .success .email-msg {
   font-size: 16px;
@@ -639,7 +648,7 @@ span.text-red {
   font-size: 20px;
   font-weight: 600;
 }
-.success .description {
+.success,.cancel .description {
   font-size: 16px;
   font-weight: 600;
   text-align: center;
