@@ -9,7 +9,7 @@ export default function Layout({ children }) {
       <Head>
         <title>RoPi Store</title>
         <meta name="description" content="Tienda Ecommerce creadad con NextJS y Sanity" />
-        <link rel="icon" href="/logo.png" />
+        <link rel="icon" href="/logo.PNG" />
       </Head>
       <header>
         <Navbar />
