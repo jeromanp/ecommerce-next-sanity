@@ -11,7 +11,9 @@ export default function Navbar() {
   return (
     <div className="navbar-container">
       <p className="logo">
-        <Link href="/">RoPi Shoes</Link>
+        <Link href="/">
+          <img src="/logo.png" alt="RoPi Shoes" />
+        </Link>
       </p>
 
       <button
