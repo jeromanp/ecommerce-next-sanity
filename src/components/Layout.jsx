@@ -8,6 +8,8 @@ export default function Layout({ children }) {
     <div className="layout">
       <Head>
         <title>RoPi Store</title>
+        <meta name="description" content="Tienda Ecommerce creadad con NextJS y Sanity" />
+        <link rel="icon" href="/logo.png" />
       </Head>
       <header>
         <Navbar />
