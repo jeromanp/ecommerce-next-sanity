@@ -12,7 +12,7 @@ export default function Navbar() {
     <div className="navbar-container">
       <p className="logo">
         <Link href="/">
-          <img src="/logo.png" alt="RoPi Shoes" />
+          <img src="/logo.PNG" alt="RoPi Shoes" />
         </Link>
       </p>
 
