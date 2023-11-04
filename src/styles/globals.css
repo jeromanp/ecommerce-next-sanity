@@ -241,11 +241,11 @@ span.text-red {
   background-color: #dcdcdc;
   border-radius: 25px;
   position: relative;
-  height: 400px;
+  height: 500px;
   line-height: 1;
   color: black;
   width: 100%;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 .banner-desc {
   display: flex;
@@ -274,10 +274,10 @@ span.text-red {
 }
 .footer-banner-image {
   position: absolute;
-  width: 30%;
+  width: 20%;
   height: auto;
-  left: 45%;
-  top: 10%;
+  left: 55%;
+  top: 50%;
 }
 .banner-desc .right {
   line-height: 1.4;

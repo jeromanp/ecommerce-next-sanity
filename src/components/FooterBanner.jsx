@@ -3,18 +3,17 @@ import Link from "next/link";
 import { urlFor } from "../../lib/client";
 
 export default function FooterBanner({ footerBanner }) {
-  console.log(footerBanner);
+  // console.log(footerBanner);
   return (
     <div className="footer-banner-container">
       <div className="banner-desc">
         <div className="left">
-          <p>Aprovecha el {footerBanner.discount}%</p>
+          <p><b>Aprovecha el {footerBanner.discount}% de descuento</b></p>
           <h3>{footerBanner.largeText1}</h3>
           <h3>{footerBanner.largeText2}</h3>
-          <p>{footerBanner.saleTime}</p>
+          <p>Válido del: {footerBanner.saleTime}</p>
         </div>
         <div className="right">
-          <p>{footerBanner.smallText}</p>
           <h3>{footerBanner.midText}</h3>
           <p>{footerBanner.desc}</p>
           <Link href={`/product/${footerBanner.slug.current}`}>
