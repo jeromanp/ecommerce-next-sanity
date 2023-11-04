@@ -2,39 +2,26 @@ import React from "react";
 import Link from "next/link";
 import { urlFor } from "../../lib/client";
 
-export default function FooterBanner({
-  footerBanner: {
-    discount,
-    largeText1,
-    largeText2,
-    saleTime,
-    smallText,
-    midText,
-    desc,
-    product,
-    buttonText,
-    image,
-  },
-}) {
+export default function FooterBanner({ footerBanner }) {
+  // console.log(footerBanner);
   return (
     <div className="footer-banner-container">
       <div className="banner-desc">
         <div className="left">
-          <p>Aprovecha el {discount}%</p>
-          <h3>{largeText1}</h3>
-          <h3>{largeText2}</h3>
-          <p>{saleTime}</p>
+          <p><b>Aprovecha el {footerBanner.discount}% de descuento</b></p>
+          <h3>{footerBanner.largeText1}</h3>
+          <h3>{footerBanner.largeText2}</h3>
+          <p>Válido del: {footerBanner.saleTime}</p>
         </div>
         <div className="right">
-          <p>{smallText}</p>
-          <h3>{midText}</h3>
-          <p>{desc}</p>
-          <Link href={`/product/${product}`}>
-            <button type="button">{buttonText}</button>
+          <h3>{footerBanner.midText}</h3>
+          <p>{footerBanner.desc}</p>
+          <Link href={`/product/${footerBanner.slug.current}`}>
+            <button type="button">{footerBanner.buttonText}</button>
           </Link>
         </div>
 
-        <img src={urlFor(image)} className="footer-banner-image" />
+        <img src={urlFor(footerBanner.image)} className="footer-banner-image" />
       </div>
     </div>
   );
