@@ -11,7 +11,10 @@ export default async function handler(req, res) {
         payment_method_types: ["card"],
         billing_address_collection: "auto",
         shipping_options: [
+          //Con costo de envio
           { shipping_rate: process.env.STRIPE_FAST_SHOPPING_ID },
+          //envio gratis
+          { shipping_rate: process.env.STRIPE_FREE_SHOPPING_ID },
         ],
         line_items: req.body.map((item) => {
           const img = item.image[0].asset._ref;
