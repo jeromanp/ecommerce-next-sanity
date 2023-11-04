@@ -141,7 +141,7 @@ span.text-red {
   cursor: pointer;
   transform: scale(1, 1);
   transition: transform 0.5s ease;
-  color: black;
+  color: #c06d1a;
 }
 .product-card:hover {
   transform: scale(1.1, 1.1);
@@ -398,7 +398,7 @@ span.text-red {
   display: flex;
   justify-content: space-between;
   width: 350px;
-  color: black;
+  color: #c06d1a;
 }
 .item-desc .bottom {
   margin-top: 60px;
@@ -506,7 +506,7 @@ span.text-red {
   margin-top: 10px;
 }
 .reviews p {
-  color: black;
+  color: #c06d1a;
   margin-top: 0px;
 }
 .product-detail-desc .price {
@@ -635,7 +635,7 @@ span.text-red {
 
 }
 
-.success, .cancel p {
+.success, .cancel, p {
   color: white;
 }
 .success, .cancel, h2 {
@@ -643,7 +643,7 @@ span.text-red {
   margin-top: 15px 0px;
   font-weight: 900;
   font-size: 40px;
-  color: black;
+  color: #472809;
   padding-bottom: 20px;
 }
 .success .email-msg {
@@ -770,7 +770,7 @@ span.text-red {
   }
   .flex h5 {
     font-size: 16px;
-    color: black;
+    color: #c06d1a;
   }
   .flex h4 {
     font-size: 16px;
